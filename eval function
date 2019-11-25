@@ -1,0 +1,19 @@
+while True:
+    print("1:read input using eval\n2:calculate infix expression\n3:calculate postfix expression\n")
+    a=int(input("enter your choice\n"))
+    if a==1:
+        
+        l=eval(input("enter a lsit"))
+        print(l)
+    elif a==2:
+        
+        b=eval(input("enter a expression\n"))
+        print(b)
+    elif a==3:
+        
+        c=eval(input("enter postfix expressin\n"))
+        print(c)
+    else:
+        print("bye bye\n")
+        break
+
